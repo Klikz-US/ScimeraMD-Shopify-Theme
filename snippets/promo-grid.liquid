@@ -182,7 +182,10 @@
               </div>
 
               {%- if block.settings.subheading != blank or block.settings.heading != blank or block.settings.textarea != blank or block.settings.cta_text1 != blank or block.settings.cta_text2 != blank -%}
-                <div class="promo-grid__content{% if block.settings.boxed %} promo-grid__content--boxed{% endif %}{% if block.settings.framed %} promo-grid__content--framed{% endif %}">
+                <div 
+                class="promo-grid__content{% if block.settings.boxed %} promo-grid__content--boxed{% endif %}{% if block.settings.framed %} promo-grid__content--framed{% endif %}"
+                style="{% if block.settings.framed and block.settings.color_frame != '' %} box-shadow:inset 0 0 0 2px {{ block.settings.color_frame }}; {% endif %}"
+                >
                   <div class="promo-grid__text">
                     {%- if block.settings.subheading != blank -%}
                       <div class="rte--block rte--em">
@@ -219,7 +222,9 @@
               href="{{ collections[block.settings.sale_collection].url }}"
               class="promo-grid__container{% if block.settings.framed and block.settings.boxed == false %} promo-grid__container--framed{% endif %}{% if block.settings.color_tint_opacity > 0 %} promo-grid__container--tint{% endif %} vertical-center horizontal-left">
               {%- if block.settings.top_text != blank or block.settings.middle_text != blank or block.settings.bottom_text != blank -%}
-                <div class="promo-grid__content{% if block.settings.boxed %} promo-grid__content--boxed{% if block.settings.framed %} promo-grid__content--framed{% endif %}{% endif %}{% if block.settings.width == '50' %} promo-grid__content--small-text{% endif %}">
+                <div class="promo-grid__content{% if block.settings.boxed %} promo-grid__content--boxed{% if block.settings.framed %} promo-grid__content--framed{% endif %}{% endif %}{% if block.settings.width == '50' %} promo-grid__content--small-text{% endif %}"
+                style="{% if block.settings.framed and block.settings.color_frame != '' %} box-shadow:inset 0 0 0 2px {{ block.settings.color_frame }}; {% endif %}"
+                >
                   <div class="promo-grid__text text-center">
                     {%- if block.settings.top_text != blank -%}
                       <div class="rte--block rte--em">

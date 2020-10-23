@@ -16,7 +16,9 @@
   {%- if section.blocks.size > 0 -%}
     <div class="logo-bar logo-bar--{{ section.id }}">
       {%- for block in section.blocks -%}
-        <div class="logo-bar__item" {{ block.shopify_attributes }}>
+        <div class="logo-bar__item" {{ block.shopify_attributes }}
+        style="flex: 0 1 {{ section.settings.logo_width }}px;"
+        >
           {%- if block.settings.link != blank -%}
             <a href="{{ block.settings.link }}" class="logo-bar__link">
           {%- endif -%}
@@ -24,7 +26,7 @@
             {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             <img class="logo-bar__image lazyload"
                 data-src="{{ img_url }}"
-                data-widths="[180, 360, 540, 720]"
+                data-widths="[180, 230, 360, 540, 720]"
                 data-aspectratio="{{ block.settings.image.aspect_ratio }}"
                 data-sizes="auto"
                 alt="{{ block.settings.image.alt }}">
@@ -62,6 +64,16 @@
         "max": 100,
         "step": 2,
         "unit": "%"
+      },
+      {
+        "type": "range",
+        "id": "logo_width",
+        "label": "Logo Width",
+        "default": 180,
+        "min": 100,
+        "max": 600,
+        "step": 10,
+        "unit": "px"
       },
       {
         "type": "checkbox",

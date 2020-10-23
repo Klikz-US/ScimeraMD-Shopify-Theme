@@ -93,7 +93,7 @@
                     {%- assign accent_brightness = block.settings.color_accent | color_extract: 'lightness' -%}
 
                     {% if accent_brightness > 40 %}
-                      color: #000 !important;
+                      color: {% if block.settings.color_btn_text != "" %} {{ block.settings.color_btn_text }} {% else %} #000 !important {% endif %}
                     {% endif %}
                   }
 
@@ -409,8 +409,14 @@
           {
             "type": "color",
             "id": "color_accent",
-            "label": "Buttons",
+            "label": "Buttons BG Color",
             "default": "rgba(0,0,0,0)"
+          },
+          {
+            "type": "color",
+            "id": "color_btn_text",
+            "label": "Buttons Text Color",
+            "default": "rgba(255,255,255,1)"
           },
           {
             "type": "select",
