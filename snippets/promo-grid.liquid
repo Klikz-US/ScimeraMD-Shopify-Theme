@@ -357,7 +357,7 @@
                 <a href="{{ block.settings.link }}">
               {%- endif -%}
                 {%- if block.settings.image != blank -%}
-                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+                <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%; background-color: {{ block.settings.image_bg_color }};">
                     {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                     <img class="lazyload"
                         data-src="{{ img_url }}"

@@ -1,85 +1,134 @@
 {
   "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_price": "#1c1d1d",
+    "color_savings_text": "#e16616",
+    "color_borders": "#e8e8e1",
+    "color_button": "#111111",
+    "color_button_text": "#ffffff",
+    "color_sale_tag": "#1c1d1d",
+    "color_sale_tag_text": "#ffffff",
+    "color_cart_dot": "#e16616",
+    "color_small_image_bg": "#ffffff",
+    "color_large_image_bg": "#0f0f0f",
+    "color_header": "#ffffff",
+    "color_header_text": "#414b56",
+    "color_announcement": "#414b56",
+    "color_announcement_text": "#ffffff",
+    "color_footer": "#414b56",
+    "color_footer_text": "#fafafa",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#343e5c",
+    "color_drawer_border": "#e8e8e1",
+    "color_drawer_button": "#343e5c",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#e6e6e6",
+    "color_image_text": "#ffffff",
+    "color_image_overlay": "#343e5c",
+    "color_image_overlay_opacity": 0,
+    "color_image_overlay_text_shadow": 20,
+    "type_header_font_family": "rajdhani_n6",
+    "type_header_spacing": "0",
+    "type_header_base_size": 38,
+    "type_header_line_height": 1,
+    "type_header_capitalize": true,
+    "type_headers_align_text": true,
+    "type_base_font_family": "futura_n4",
+    "type_base_spacing": "50",
+    "type_base_size": 16,
+    "type_base_line_height": 1.6,
+    "type_body_align_text": true,
+    "type_navigation_style": "body",
+    "type_navigation_size": 13,
+    "type_navigation_capitalize": true,
+    "type_product_style": "body",
+    "type_product_capitalize": true,
+    "type_collection_font": "heading",
+    "type_collection_size": 18,
+    "button_style": "round-slight",
+    "icon_weight": "3px",
+    "icon_linecaps": "round",
+    "vendor_enable": false,
+    "sku_enable": false,
+    "quantity_enable": false,
+    "variant_labels_enable": true,
+    "variant_type": "button",
+    "enable_payment_button": true,
+    "inventory_enable": true,
+    "inventory_threshold": 10,
+    "inventory_transfers_enable": false,
+    "product_save_amount": true,
+    "product_save_type": "dollar",
+    "product_zoom_enable": false,
+    "quick_shop_enable": false,
+    "quick_shop_text": "Quick view",
+    "product_grid_image_size": "natural",
+    "product_hover_image": false,
+    "product_color_swatches": false,
+    "collection_color_swatches": false,
+    "swatch_style": "round",
+    "trust_image": "",
+    "product_content_1": "",
+    "product_content_collapse_1": true,
+    "product_content_2": "",
+    "product_content_collapse_2": true,
+    "product_content_3": "",
+    "product_content_collapse_3": true,
+    "product_contact": false,
+    "product_contact_title": "Ask a question",
+    "product_contact_show_phone": false,
+    "enable_product_reviews": false,
+    "reviews_layout": "expandable",
+    "collection_grid_style": "below",
+    "collection_grid_shape": "square",
+    "collection_grid_image": "collection",
+    "collection_grid_text_align": "center",
+    "collection_grid_tint": "#000000",
+    "collection_grid_opacity": 10,
+    "collection_grid_gutter": true,
+    "cart_type": "drawer",
+    "cart_icon": "cart",
+    "cart_additional_buttons": false,
+    "cart_notes_enable": false,
+    "cart_terms_conditions_enable": false,
+    "cart_terms_conditions_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
+    "social_twitter_link": "",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
+    "social_instagram_link": "https:\/\/instagram.com\/shopify",
+    "social_snapchat_link": "",
+    "social_tiktok_link": "",
+    "social_tumblr_link": "",
+    "social_linkedin_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "favicon": "",
+    "search_enable": true,
+    "search_type": "product,article,page,collection",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "predictive_image_size": "square",
+    "show_breadcrumbs": false,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
     "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "checkout_accent_color": "#111111",
     "checkout_button_color": "#111111",
     "checkout_error_color": "#ff6d6d",
     "breadcrumb": false,
-    "button_style": "square",
-    "cart_notes_enable": false,
-    "cart_terms_conditions_enable": false,
-    "cart_type": "drawer",
-    "collection_color_swatches": false,
-    "collection_grid_gutter": true,
-    "collection_grid_image": "product",
-    "collection_grid_opacity": 10,
-    "collection_grid_shape": "square",
-    "collection_grid_style": "overlaid-box",
-    "collection_grid_text_align": "center",
-    "collection_grid_tint": "#000000",
-    "color_announcement": "#0f0f0f",
-    "color_announcement_text": "#ffffff",
-    "color_body_bg": "#ffffff",
-    "color_body_text": "#000000",
-    "color_borders": "#e8e8e1",
-    "color_button": "#111111",
-    "color_button_text": "#ffffff",
-    "color_cart_dot": "#ff4f33",
-    "color_drawer_background": "#ffffff",
-    "color_drawer_border": "#e8e8e1",
-    "color_drawer_button": "#111111",
-    "color_drawer_button_text": "#ffffff",
-    "color_drawer_text": "#000000",
-    "color_footer": "#ffffff",
-    "color_footer_text": "#000000",
-    "color_header": "#ffffff",
-    "color_header_text": "#000000",
-    "color_image_overlay": "#000000",
-    "color_image_overlay_text_shadow": 20,
-    "color_large_image_bg": "#0f0f0f",
-    "color_modal_overlays": "#e6e6e6",
-    "color_price": "#1c1d1d",
-    "color_savings_text": "#C20000",
-    "color_small_image_bg": "#ffffff",
-    "icon_linecaps": "miter",
-    "icon_weight": "2px",
-    "inventory_enable": true,
-    "product_color_swatches": false,
-    "product_contact": false,
-    "product_grid_image_size": "natural",
-    "product_hover_image": false,
-    "quantity_enable": false,
-    "quick_shop_text": "Quick view",
-    "share_facebook": true,
-    "share_pinterest": true,
-    "share_twitter": true,
-    "sku_enable": false,
-    "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-    "social_instagram_link": "https:\/\/instagram.com\/shopify",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
-    "type_base_font_family": "futura_n4",
-    "type_base_line_height": 1.6,
-    "type_base_size": 16,
-    "type_base_spacing": "25",
-    "type_body_align_text": true,
-    "type_collection_font": "body",
-    "type_collection_size": 18,
-    "type_header_base_size": 38,
-    "type_header_capitalize": true,
-    "type_header_font_family": "tiemann_n4",
-    "type_header_line_height": 1,
-    "type_header_spacing": "0",
-    "type_headers_align_text": true,
-    "type_navigation_capitalize": true,
-    "type_navigation_size": 13,
-    "type_navigation_style": "body",
-    "type_product_style": "body",
-    "variant_type": "button",
-    "vendor_enable": false,
     "sections": {
       "header": {
         "type": "header",
@@ -87,22 +136,26 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "desktop_logo_width": 140,
-              "mobile_logo_width": 110
+              "logo": "shopify:\/\/shop_images\/logo.png",
+              "logo-inverted": "shopify:\/\/shop_images\/logo_white.png",
+              "desktop_logo_width": 250,
+              "mobile_logo_width": 150
             }
           },
           "1524770292306": {
             "type": "announcement",
             "settings": {
               "text": "Free shipping",
-              "link_text": "On all orders over $100"
+              "link_text": "On all orders over $100",
+              "link": ""
             }
           },
           "1524770296206": {
             "type": "announcement",
             "settings": {
               "text": "Hassle-free returns",
-              "link_text": "30-day postage paid returns"
+              "link_text": "30-day postage paid returns",
+              "link": ""
             }
           }
         },
@@ -113,13 +166,18 @@
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
+          "mega_menu_images": true,
           "main_menu_alignment": "center-split",
           "header_style": "sticky",
           "sticky_index": false,
           "sticky_collection": false,
           "announcement_compact": true,
-          "toolbar_menu": "top",
-          "toolbar_social": true
+          "announcement_above_header": false,
+          "toolbar_menu": "",
+          "toolbar_social": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false
         }
       },
       "footer": {
@@ -128,51 +186,72 @@
           "1494301487048": {
             "type": "logo_social",
             "settings": {
-              "container_width": 95
+              "logo": "shopify:\/\/shop_images\/logo_white.png",
+              "desktop_logo_height": 64,
+              "container_width": 30
             }
           },
           "1494301487049": {
             "type": "menu",
             "settings": {
+              "show_footer_title": true,
               "menu": "footer",
-              "container_width": 25
+              "container_width": 30
             }
           },
           "1494292487693": {
             "type": "newsletter",
             "settings": {
-              "container_width": 33
+              "show_footer_title": true,
+              "title": "Sign up and save",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "container_width": 40
             }
           }
         },
         "block_order": [
+          "1494301487048",
           "1494301487049",
-          "1494292487693",
-          "1494301487048"
+          "1494292487693"
         ],
         "settings": {
-          "show_payment_icons": false
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false,
+          "show_payment_icons": true,
+          "show_copyright": true,
+          "copyright_text": "✝ \"These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
         }
       },
       "collection-template": {
         "type": "collection-template",
         "settings": {
+          "description_position": "top",
           "subcollection_style": "above",
           "subcollections_per_row": 5,
-          "per_row": 4
+          "enable_collection_count": true,
+          "per_row": 4,
+          "rows_per_page": 7,
+          "mobile_flush_grid": false
         }
       },
       "product-template": {
         "type": "product-template",
         "settings": {
+          "description_style": "default",
           "social_enable": true,
           "image_position": "left",
-          "image_size": "large"
+          "image_size": "large",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "enable_video_looping": true,
+          "product_video_style": "muted"
         }
       },
       "article-template": {
         "type": "article-template",
         "settings": {
+          "image_hero": false,
           "blog_show_tags": true,
           "blog_show_date": true,
           "blog_show_comments": true,
@@ -183,9 +262,11 @@
       "1498163293234": {
         "type": "featured-content",
         "settings": {
+          "title": "Science First, Reliability & Prestige",
+          "text": "<p>WE OFFER TRUSTED EXPERT SUPPORT FOR ALL OF OUR PRODUCTS!<\/p>",
           "align_text": "center",
-          "narrow_column": true,
-          "enlarge_text": true,
+          "narrow_column": false,
+          "enlarge_text": false,
           "divider": false
         }
       },
@@ -198,68 +279,70 @@
           "blog_show_date": true,
           "blog_show_comments": true,
           "blog_show_author": false,
+          "blog_show_excerpt": false,
           "blog_image_size": "wide"
         }
       },
       "1499789718857": {
         "type": "featured-collections",
         "blocks": {
-          "1499789718857-0": {
-            "type": "collection",
-            "settings": {}
-          },
           "1499789718857-1": {
             "type": "collection",
-            "settings": {}
+            "settings": {
+              "collection": "immunemd",
+              "title": "",
+              "focal_point": "center center"
+            }
           },
           "1499789718857-2": {
             "type": "collection",
-            "settings": {}
+            "settings": {
+              "collection": "e2-energy-focus",
+              "title": "",
+              "focal_point": "center center"
+            }
           },
-          "1499789718857-3": {
+          "1603417051711": {
             "type": "collection",
-            "settings": {}
+            "settings": {
+              "collection": "health-support",
+              "title": "",
+              "focal_point": "center center"
+            }
           }
         },
         "block_order": [
-          "1499789718857-0",
           "1499789718857-1",
           "1499789718857-2",
-          "1499789718857-3"
+          "1603417051711"
         ],
         "settings": {
-          "title": "Shop by category",
+          "title": "",
           "divider": false,
-          "per_row": 4,
+          "per_row": 3,
           "enable_gutter": true
         }
       },
       "1499790633921": {
         "type": "background-image-text",
         "settings": {
-          "button_link": "shopify:\/\/collections\/all",
-          "focal_point": "80% 0",
+          "subtitle": "ScimeraMD",
+          "title": "A Bioceutical Company",
+          "text": "<p><strong>ScimeraMD&reg;<\/strong>&nbsp;develops cutting-edge bioceuticals to ensure maximal customer benefit, uphold the highest benchmark of quality, and to continually set the standard within the Bioceutical industry.<\/p>",
+          "button_label": "Learn More About Us",
+          "button_link": "shopify:\/\/blogs\/scimeramd",
+          "image": "shopify:\/\/shop_images\/clean-bg.jpg",
+          "focal_point": "top",
           "color_border": "#cdb8ac",
           "layout": "left",
-          "height": 750,
-          "framed": false,
+          "height": 650,
+          "framed": true,
           "parallax": true
         }
       },
       "product-sections-template": {
         "type": "product-sections-template",
         "blocks": {
-          "sections-1592408474529": {
-            "type": "text-and-image",
-            "settings": {
-              "image": "",
-              "image_width": 500,
-              "subtitle": "Improved",
-              "button_label": "Optional button",
-              "button_link": "",
-              "layout": "right"
-            }
-          },
           "sections-1592410313636": {
             "type": "background-image-text",
             "settings": {
@@ -290,6 +373,32 @@
               "author_2": "Author's name"
             }
           },
+          "sections-1592408474529": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "",
+              "image_width": 500,
+              "subtitle": "Improved",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "right"
+            }
+          },
+          "sections-1592410318615": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "",
+              "image_width": 500,
+              "subtitle": "Improved",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
           "sections-1592410272428": {
             "type": "image-hero",
             "settings": {
@@ -308,17 +417,6 @@
               "section_height": "650px",
               "mobile_height": "auto"
             }
-          },
-          "sections-1592410318615": {
-            "type": "text-and-image",
-            "settings": {
-              "image": "",
-              "image_width": 500,
-              "subtitle": "Improved",
-              "button_label": "Optional button",
-              "button_link": "",
-              "layout": "left"
-            }
           }
         },
         "block_order": [
@@ -333,17 +431,6 @@
       "product-story-sections": {
         "type": "product-story-sections",
         "blocks": {
-          "1592408474529": {
-            "type": "text-and-image",
-            "settings": {
-              "image": "",
-              "image_width": 500,
-              "subtitle": "Improved",
-              "button_label": "Optional button",
-              "button_link": "",
-              "layout": "right"
-            }
-          },
           "1592410313636": {
             "type": "background-image-text",
             "settings": {
@@ -374,6 +461,32 @@
               "author_2": "Author's name"
             }
           },
+          "1592408474529": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "",
+              "image_width": 500,
+              "subtitle": "Improved",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "right"
+            }
+          },
+          "1592410318615": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "",
+              "image_width": 500,
+              "subtitle": "Improved",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
           "1592410272428": {
             "type": "image-hero",
             "settings": {
@@ -392,17 +505,6 @@
               "section_height": "650px",
               "mobile_height": "auto"
             }
-          },
-          "1592410318615": {
-            "type": "text-and-image",
-            "settings": {
-              "image": "",
-              "image_width": 500,
-              "subtitle": "Improved",
-              "button_label": "Optional button",
-              "button_link": "",
-              "layout": "left"
-            }
           }
         },
         "block_order": [
@@ -419,11 +521,28 @@
         "blocks": {
           "page-image-hero": {
             "type": "image-hero",
-            "settings": {}
+            "settings": {
+              "parallax": true,
+              "title": "Two line\ntitle image",
+              "title_size": 80,
+              "subheading": "And optional subtext",
+              "link": "",
+              "link_text": "Optional button",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "",
+              "focal_point": "center center",
+              "section_height": "650px",
+              "mobile_height": "auto"
+            }
           },
           "page-rich-text": {
             "type": "rich-text",
             "settings": {
+              "title": "Rich text block",
+              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>",
               "align_text": "center",
               "narrow_column": true,
               "enlarge_text": true
@@ -431,23 +550,56 @@
           },
           "page-text-columns": {
             "type": "text-columns",
-            "settings": {}
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "",
+              "image_width_1": 650,
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "image_2": "",
+              "image_width_2": 650,
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "image_3": "",
+              "image_width_3": 650,
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
           },
           "page-background-image-text": {
             "type": "background-image-text",
             "settings": {
+              "subtitle": "Impressive",
+              "title": "Large image with text box",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "image": "",
               "alignment": "center",
               "color_border": "#f4f4f4",
               "layout": "right",
-              "height": 550
+              "height": 550,
+              "parallax": true
             }
           },
           "page-featured-collection": {
             "type": "featured-collection",
             "settings": {
               "title": "Featured collection",
+              "collection": "",
               "per_row": 4,
               "rows": 1,
+              "mobile_scrollable": true,
               "view_all": true
             }
           }
@@ -466,7 +618,19 @@
       },
       "newsletter-popup": {
         "type": "newsletter-popup",
-        "settings": {}
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "Sign up and save",
+          "popup_image": "",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "close_text": "No thanks",
+          "enable_newsletter": true,
+          "button_label": "Optional button",
+          "button_link": "",
+          "enable_button": false
+        }
       },
       "1524769873765": {
         "type": "slideshow",
@@ -474,41 +638,79 @@
           "1524769873765-0": {
             "type": "image",
             "settings": {
+              "top_subheading": "Support Your Digestive Health",
+              "title": "Asprega 30",
               "title_size": 80,
-              "link": "shopify:\/\/collections\/all",
-              "link_text": "Shop this",
+              "subheading": "Probiotics & Prebiotics",
+              "link": "shopify:\/\/products\/probiotics-prebiotics-asprega-30-count",
+              "link_text": "Shop Asprega 30",
               "link_2": "shopify:\/\/collections\/all",
-              "link_text_2": "Shop all",
+              "link_text_2": "Shop All",
               "color_accent": "#000000",
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "top center"
+              "color_btn_text": "rgba(255,255,255,1)",
+              "color_text_bg": "#e16616",
+              "image_inner": "shopify:\/\/shop_images\/Ubiquinol_4a7d05e4-1165-4ebb-887c-2bbfbb04ef0e.png",
+              "image_inner_width": 300,
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/legs-running-on-track.jpg",
+              "focal_point": "center center"
             }
           },
           "1524769873765-1": {
             "type": "image",
             "settings": {
+              "top_subheading": "The Next Layer of Immune Defense",
+              "title": "Lemon Ginger",
               "title_size": 80,
-              "link": "shopify:\/\/collections\/all",
-              "link_text": "Shop all",
+              "subheading": "ImmuneMD Powder",
+              "link": "shopify:\/\/products\/immunemd-powder-orange",
+              "link_text": "Shop ImmuneMD Powder",
               "link_2": "shopify:\/\/collections\/all",
-              "link_text_2": "Shop all",
+              "link_text_2": "Shop All",
               "color_accent": "#000000",
-              "text_align": "vertical-bottom horizontal-left",
+              "color_btn_text": "rgba(255,255,255,1)",
+              "color_text_bg": "#e16616",
+              "image_inner": "shopify:\/\/shop_images\/ImmuneMD_-_lemon.png",
+              "image_inner_width": 300,
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/orange-in-grass.jpg",
               "focal_point": "top center"
+            }
+          },
+          "1603267278311": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "First Responders Trust Scimune",
+              "title": "Scimune 30CT",
+              "title_size": 80,
+              "subheading": "Immune Support",
+              "link": "shopify:\/\/products\/immune-support-scimune-bottle",
+              "link_text": "Shop Immune Support",
+              "link_2": "shopify:\/\/collections\/all",
+              "link_text_2": "Shop All",
+              "color_accent": "#000000",
+              "color_btn_text": "rgba(255,255,255,1)",
+              "color_text_bg": "#e16616",
+              "image_inner": "shopify:\/\/shop_images\/Scimune_19d15eb9-48da-413e-a9da-d9c6a1eef517.png",
+              "image_inner_width": 300,
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/AdobeStock_59684085-1170x659.jpeg",
+              "focal_point": "center center"
             }
           }
         },
         "block_order": [
           "1524769873765-0",
-          "1524769873765-1"
+          "1524769873765-1",
+          "1603267278311"
         ],
         "settings": {
           "section_height": "750px",
           "mobile_height": "auto",
-          "parallax": true,
+          "parallax": false,
           "style": "bars",
-          "autoplay": true,
-          "autoplay_speed": 7
+          "autoplay": false,
+          "autoplay_speed": 8
         }
       },
       "collection-header": {
@@ -524,11 +726,18 @@
         "blocks": {
           "1524772785241": {
             "type": "subcollections",
-            "settings": {}
+            "settings": {
+              "enable_subsubcollections": true,
+              "enable_count": false,
+              "collapsed": false
+            }
           },
           "1524772580942": {
             "type": "tags_all",
-            "settings": {}
+            "settings": {
+              "title": "Tags",
+              "collapsed": false
+            }
           }
         },
         "block_order": [
@@ -538,15 +747,15 @@
         "settings": {
           "enable_sidebar": true,
           "filter_style": "sidebar",
-          "tags_combine": false,
+          "tags_combine": true,
           "enable_sort": true
         }
       },
       "1525115199973": {
         "type": "blog-posts",
         "settings": {
-          "title": "From the journal",
-          "blog": "news",
+          "title": "The Scimera MD Difference",
+          "blog": "scimeramd",
           "post_limit": 3,
           "blog_show_tags": false,
           "blog_show_date": true,
@@ -557,100 +766,60 @@
           "divider": false
         }
       },
-      "1525118065355": {
-        "type": "map",
-        "settings": {}
-      },
-      "1525295772132": {
-        "type": "featured-collection",
-        "settings": {
-          "per_row": 4,
-          "rows": 1,
-          "view_all": true,
-          "divider": false
-        }
-      },
       "1525886124958": {
         "type": "promo-grid",
         "blocks": {
-          "1525886482727": {
-            "type": "advanced",
+          "1603443590279": {
+            "type": "image",
             "settings": {
-              "cta_link1": "shopify:\/\/collections\/all",
-              "width": "100",
-              "height": 720,
-              "text_size": 120,
-              "focal_point": "80% 50%",
-              "boxed": false,
-              "framed": false
+              "image": "shopify:\/\/shop_images\/all-products-classic_c6d5e93c-7d10-4869-b708-ec6e4c4e9d97.png",
+              "link": "",
+              "image_bg_color": "#e16616",
+              "width": "100"
             }
           },
           "1525886854810": {
             "type": "sale_collection",
             "settings": {
+              "sale_collection": "probiotics-prebiotics",
+              "top_text": "Up to",
+              "middle_text": "20% off",
+              "bottom_text": "Probiotics & Prebiotics",
               "width": "50",
+              "color_tint": "#000000",
+              "color_tint_opacity": 6,
               "boxed": false,
-              "framed": true
+              "framed": true,
+              "color_frame": ""
             }
           },
-          "1525911710924": {
-            "type": "sale_collection",
+          "1603442203503": {
+            "type": "product",
             "settings": {
+              "product": "heart-health-ubiquinol",
+              "subheading": "Heart Health",
+              "heading": "Ubiquinol",
+              "textarea": "",
+              "link_label": "Shop Now",
+              "label": "New",
+              "enable_price": false,
               "width": "50",
-              "boxed": false,
-              "framed": true
+              "text_size": 140,
+              "color_tint": "#e16616",
+              "color_tint_opacity": 0,
+              "framed": true,
+              "color_frame": ""
             }
           }
         },
         "block_order": [
-          "1525886482727",
           "1525886854810",
-          "1525911710924"
-        ],
-        "settings": {
-          "full_width": false,
-          "gutter_size": 20,
-          "space_above": false,
-          "space_below": false
-        }
-      },
-      "1525912530555": {
-        "type": "promo-grid",
-        "blocks": {
-          "1525912530555-0": {
-            "type": "advanced",
-            "settings": {
-              "cta_link1": "shopify:\/\/collections\/all",
-              "width": "50",
-              "height": 800,
-              "text_size": 100,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "center",
-              "boxed": false,
-              "framed": true
-            }
-          },
-          "1525912530555-1": {
-            "type": "advanced",
-            "settings": {
-              "cta_link1": "shopify:\/\/collections\/all",
-              "width": "50",
-              "height": 500,
-              "text_size": 100,
-              "text_align": "vertical-bottom horizontal-center",
-              "focal_point": "80% 50%",
-              "boxed": true,
-              "framed": false
-            }
-          }
-        },
-        "block_order": [
-          "1525912530555-0",
-          "1525912530555-1"
+          "1603442203503",
+          "1603443590279"
         ],
         "settings": {
           "full_width": true,
-          "gutter_size": 20,
+          "gutter_size": 0,
           "space_above": false,
           "space_below": false
         }
@@ -661,8 +830,12 @@
           "1526403837307": {
             "type": "banner",
             "settings": {
+              "promo_collection": "",
+              "heading": "Banner promotion",
+              "text": "Add the details of your promotion in smaller text",
               "link": "shopify:\/\/collections\/all",
               "label": "Shop now",
+              "image": "",
               "color_tint": "#e95454",
               "color_tint_opacity": 10,
               "framed": false
@@ -671,12 +844,22 @@
           "1526496043079": {
             "type": "advanced",
             "settings": {
+              "promo_collection": "",
+              "subheading": "Limited time",
+              "heading": "Announce your promotion",
+              "textarea": "Include the smaller details of your promotion in text below the title.",
+              "cta_text1": "Shop This",
               "cta_link1": "shopify:\/\/collections\/all",
+              "cta_text2": "Shop All",
+              "cta_link2": "",
+              "image": "",
+              "video_url": "",
               "width": "100",
               "height": 500,
               "text_size": 120,
               "text_align": "vertical-center horizontal-center",
               "focal_point": "center",
+              "color_accent": "rgba(0,0,0,0)",
               "boxed": false,
               "framed": true
             }
@@ -689,18 +872,152 @@
         "settings": {
           "gutter_size": 20
         }
+      },
+      "footer-promotions": {
+        "type": "footer-promotions",
+        "blocks": {
+          "footer-promotions-0": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/carefully-placing-a-package-into-packing-peanuts.jpg",
+              "title": "100% MONEY BACK",
+              "text": "<p>GUARANTEE<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "footer-promotions-1": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/holding-a-stack-of-money.jpg",
+              "title": "FREE SHIPPING",
+              "text": "<p>ON ORDERS OVER $100<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "footer-promotions-2": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/dentist-light.jpg",
+              "title": "PHYSICIAN FORMULATED",
+              "text": "<p>PRODUCTS<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "footer-promotions-0",
+          "footer-promotions-1",
+          "footer-promotions-2"
+        ],
+        "settings": {
+          "hide_homepage": false,
+          "image_size": "wide"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like",
+          "related_count": 5
+        }
+      },
+      "recently-viewed": {
+        "type": "recently-viewed",
+        "settings": {
+          "show_section": true,
+          "recent_count": 5
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "title_enable": true,
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": "3"
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "page-contact-template-0": {
+            "type": "contact-form",
+            "settings": {
+              "title": "",
+              "show_phone": false,
+              "narrow_column": true
+            }
+          }
+        },
+        "block_order": [
+          "page-contact-template-0"
+        ],
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": true
+        }
+      },
+      "1603430246889": {
+        "type": "logo-list",
+        "blocks": {
+          "1603430246889-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-us-top-01_134x134_crop_center_2x_69c967f4-1670-4bf3-8278-01102618ffde.png",
+              "link": ""
+            }
+          },
+          "1603430246889-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-us-top-02_134x134_crop_center_2x_5125d04d-ced2-4e3c-bab7-7c2a7aa7fde3.png",
+              "link": ""
+            }
+          },
+          "1603430246889-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-us-top-03_134x134_crop_center_2x_b68a88cc-1dcc-4cd0-bbd6-fb482b861c24.png",
+              "link": ""
+            }
+          },
+          "1603430246889-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about-us-top-04_134x134_crop_center_2x_c14822c4-b868-46a3-871e-d98b4afec6a3.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1603430246889-0",
+          "1603430246889-1",
+          "1603430246889-2",
+          "1603430246889-3"
+        ],
+        "settings": {
+          "title": "",
+          "logo_opacity": 100,
+          "logo_width": 160,
+          "divider": false
+        }
       }
     },
     "content_for_index": [
       "1524769873765",
-      "1498163293234",
-      "1525912530555",
+      "1603430246889",
       "1499789718857",
       "1525886124958",
-      "1525295772132",
       "1499790633921",
       "1525115199973",
-      "1525118065355"
+      "1498163293234"
     ]
   },
   "presets": {
