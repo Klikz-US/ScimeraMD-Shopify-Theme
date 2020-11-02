@@ -1,6 +1,6 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="page-width">
+<div {% if section.settings.full-width == false %} class="page-width" {% else %} style="margin-left: 23px;" {% endif %}>
   {%- if section.settings.title != blank -%}
     <div class="section-header">
       <h2 class="section-header__title">{{ section.settings.title }}</h2>
@@ -64,10 +64,26 @@
     "max_blocks": 15,
     "settings": [
       {
+        "type": "checkbox",
+        "id": "full-width",
+        "label": "Full Width",
+        "default": true
+      },
+      {
         "type": "text",
         "id": "title",
         "label": "Heading",
         "default": "Collection list"
+      },
+      {
+        "type": "range",
+        "id": "grid-padding",
+        "label": "Column Space",
+        "unit": "px",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "default": 0
       },
       {
         "type": "checkbox",
@@ -135,6 +151,11 @@
             "type": "text",
             "id": "title",
             "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "background-image",
+            "label": "Background Image"
           },
           {
             "type": "select",

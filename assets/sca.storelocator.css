@@ -8,7 +8,7 @@
 .scasl-location-mobile {
 	height: 50px !important;cursor: pointer !important;
 }
-#scasl-app-container {margin-left: 10px;margin-right: 10px;z-index: 100 !important; position: relative;}
+#scasl-app-container {margin-left: 10px;margin-right: 10px; position: relative;}
 #bh-sl-map div {  box-sizing: initial !important;}
 #scasl-window-container div, #scasl-window-container div span{word-break:     normal !important;}
 #scasl-description p {word-break: break-all !important;}
@@ -95,3 +95,30 @@
 	.new-for-mobile #scasl-window-container #scasl-store_image { float: left; margin: 10px 0; }
 }
 /* End */
+
+/**
+ * Custom Code by Murrell Johnson
+ */
+#scasl-app-container #page-header {
+    float: unset;
+    margin: 60px auto 40px;
+    text-align: center;
+}
+
+#page-header .bh-sl-title {
+    color: #000000;
+    font-family: var(--typeHeaderPrimary),var(--typeHeaderFallback);
+    font-size: 38px !important;
+}
+
+#scasl-tab-radius {
+	max-width: 840px;
+	margin-left: auto;
+	box-shadow: 3px 5px 20px rgb(0 0 0 / 16%);
+	margin-bottom: 20px;
+}
+
+.bh-sl-form-container, .bh-sl-form-container label, .bh-sl-form-container button, .bh-sl-container .form-input input, .bh-sl-container .form-input select {
+	color: #000000;
+    font-family: var(--typeHeaderPrimary),var(--typeHeaderFallback);
+}

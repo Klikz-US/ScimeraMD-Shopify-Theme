@@ -93,10 +93,10 @@
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "cart_terms_conditions_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
+    "social_facebook_link": "https:\/\/www.facebook.com\/ScimeraMD\/",
     "social_twitter_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
-    "social_instagram_link": "https:\/\/instagram.com\/shopify",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/scimeramd\/",
     "social_snapchat_link": "",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
@@ -115,7 +115,7 @@
     "predictive_image_size": "square",
     "show_breadcrumbs": false,
     "checkout_header_image": "",
-    "checkout_logo_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_f2f12ac1-b646-4458-9bba-75ec19404616.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_image": "",
@@ -146,16 +146,14 @@
             "type": "announcement",
             "settings": {
               "text": "Free shipping",
-              "link_text": "On all orders over $100",
-              "link": ""
+              "link_text": "On all orders over $100"
             }
           },
           "1524770296206": {
             "type": "announcement",
             "settings": {
               "text": "Hassle-free returns",
-              "link_text": "30-day postage paid returns",
-              "link": ""
+              "link_text": "30-day postage paid returns"
             }
           }
         },
@@ -194,7 +192,7 @@
           "1494301487049": {
             "type": "menu",
             "settings": {
-              "show_footer_title": true,
+              "show_footer_title": false,
               "menu": "footer",
               "container_width": 30
             }
@@ -207,20 +205,30 @@
               "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
               "container_width": 40
             }
+          },
+          "c1e39e55-9d78-40d5-a90a-294dadcbe57c": {
+            "type": "custom",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Contact US:",
+              "text": "<p>(855) 724-6372<\/p><p>orders@scimera.com<\/p>",
+              "container_width": 25
+            }
           }
         },
         "block_order": [
           "1494301487048",
           "1494301487049",
-          "1494292487693"
+          "1494292487693",
+          "c1e39e55-9d78-40d5-a90a-294dadcbe57c"
         ],
         "settings": {
           "show_locale_selector": false,
           "show_currency_selector": false,
           "show_currency_flags": false,
-          "show_payment_icons": true,
+          "show_payment_icons": false,
           "show_copyright": true,
-          "copyright_text": "✝ \"These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+          "copyright_text": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
         }
       },
       "collection-template": {
@@ -241,7 +249,7 @@
           "description_style": "default",
           "social_enable": true,
           "image_position": "left",
-          "image_size": "large",
+          "image_size": "medium",
           "thumbnail_position": "beside",
           "thumbnail_arrows": false,
           "enable_video_looping": true,
@@ -286,19 +294,21 @@
       "1499789718857": {
         "type": "featured-collections",
         "blocks": {
+          "1499789718857-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "probiotics-prebiotics",
+              "title": "",
+              "background-image": "shopify:\/\/shop_images\/Home_Best_Sellers.jpg",
+              "focal_point": "center center"
+            }
+          },
           "1499789718857-1": {
             "type": "collection",
             "settings": {
               "collection": "immunemd",
               "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1499789718857-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "e2-energy-focus",
-              "title": "",
+              "background-image": "shopify:\/\/shop_images\/Home_Immune_Support.jpg",
               "focal_point": "center center"
             }
           },
@@ -307,35 +317,48 @@
             "settings": {
               "collection": "health-support",
               "title": "",
+              "background-image": "shopify:\/\/shop_images\/Home_Heart_Health_Support.jpg",
+              "focal_point": "center center"
+            }
+          },
+          "c8c4d915-40b5-4141-be88-dc80fa3b7256": {
+            "type": "collection",
+            "settings": {
+              "collection": "e2-energy-focus",
+              "title": "",
+              "background-image": "shopify:\/\/shop_images\/Untitled_design_8.png",
               "focal_point": "center center"
             }
           }
         },
         "block_order": [
-          "1499789718857-1",
           "1499789718857-2",
-          "1603417051711"
+          "1499789718857-1",
+          "1603417051711",
+          "c8c4d915-40b5-4141-be88-dc80fa3b7256"
         ],
         "settings": {
+          "full-width": true,
           "title": "",
+          "grid-padding": 0,
           "divider": false,
-          "per_row": 3,
+          "per_row": 2,
           "enable_gutter": true
         }
       },
       "1499790633921": {
         "type": "background-image-text",
         "settings": {
-          "subtitle": "ScimeraMD",
-          "title": "A Bioceutical Company",
-          "text": "<p><strong>ScimeraMD&reg;<\/strong>&nbsp;develops cutting-edge bioceuticals to ensure maximal customer benefit, uphold the highest benchmark of quality, and to continually set the standard within the Bioceutical industry.<\/p>",
-          "button_label": "Learn More About Us",
-          "button_link": "shopify:\/\/blogs\/scimeramd",
-          "image": "shopify:\/\/shop_images\/clean-bg.jpg",
-          "focal_point": "top",
-          "color_border": "#cdb8ac",
+          "subtitle": "For a Strong Immune System",
+          "title": "try Scimune Today!",
+          "text": "",
+          "button_label": "View Product",
+          "button_link": "shopify:\/\/products\/immune-support-scimune",
+          "image": "shopify:\/\/shop_images\/Scimune_Bundle_Strawberry_2.png",
+          "focal_point": "80% 50%",
+          "color_border": "#fffaf7",
           "layout": "left",
-          "height": 650,
+          "height": 750,
           "framed": true,
           "parallax": true
         }
@@ -430,90 +453,6 @@
       },
       "product-story-sections": {
         "type": "product-story-sections",
-        "blocks": {
-          "1592410313636": {
-            "type": "background-image-text",
-            "settings": {
-              "subtitle": "Why choose us?",
-              "title": "Explain your brand philosophy",
-              "text": "<p>Use this section to explain your company philosophy or standards. Showcase lifestyle photography for added emphasis. This content will appear on all products.<\/p>",
-              "button_label": "",
-              "button_link": "",
-              "image": "",
-              "alignment": "center",
-              "color_border": "#f4f4f4",
-              "layout": "right",
-              "height": 650,
-              "parallax": true
-            }
-          },
-          "1592408476245": {
-            "type": "testimonials",
-            "settings": {
-              "title": "Testimonials",
-              "align_text": "center",
-              "round_images": false,
-              "testimonial_1": "<p>Add customer reviews and testimonials to showcase your store&rsquo;s happy customers and to provide social proof.<\/p>",
-              "image_1": "",
-              "author_1": "Author's name",
-              "testimonial_2": "<p>Add customer reviews and testimonials to showcase your store&rsquo;s happy customers and to provide social proof.<\/p>",
-              "image_2": "",
-              "author_2": "Author's name"
-            }
-          },
-          "1592408474529": {
-            "type": "text-and-image",
-            "settings": {
-              "image": "",
-              "image_width": 500,
-              "subtitle": "Improved",
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-              "button_label": "Optional button",
-              "button_link": "",
-              "layout": "right"
-            }
-          },
-          "1592410318615": {
-            "type": "text-and-image",
-            "settings": {
-              "image": "",
-              "image_width": 500,
-              "subtitle": "Improved",
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-              "button_label": "Optional button",
-              "button_link": "",
-              "layout": "left"
-            }
-          },
-          "1592410272428": {
-            "type": "image-hero",
-            "settings": {
-              "parallax": true,
-              "title": "Two line\ntitle image",
-              "title_size": 80,
-              "subheading": "And optional subtext",
-              "link": "",
-              "link_text": "Optional button",
-              "link_2": "",
-              "link_text_2": "",
-              "color_accent": "#ffffff",
-              "text_align": "vertical-center horizontal-center",
-              "image": "",
-              "focal_point": "center center",
-              "section_height": "650px",
-              "mobile_height": "auto"
-            }
-          }
-        },
-        "block_order": [
-          "1592410313636",
-          "1592408476245",
-          "1592408474529",
-          "1592410318615",
-          "1592410272428"
-        ],
         "settings": {}
       },
       "page-sections-template": {
@@ -623,12 +562,10 @@
           "popup_seconds": 5,
           "popup_days": 30,
           "popup_title": "Sign up and save",
-          "popup_image": "",
           "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
           "close_text": "No thanks",
           "enable_newsletter": true,
           "button_label": "Optional button",
-          "button_link": "",
           "enable_button": false
         }
       },
@@ -647,10 +584,10 @@
               "link_2": "shopify:\/\/collections\/all",
               "link_text_2": "Shop All",
               "color_accent": "#000000",
-              "color_btn_text": "rgba(255,255,255,1)",
+              "color_btn_text": "#ffffff",
               "color_text_bg": "#e16616",
               "image_inner": "shopify:\/\/shop_images\/Ubiquinol_4a7d05e4-1165-4ebb-887c-2bbfbb04ef0e.png",
-              "image_inner_width": 300,
+              "image_inner_width": 200,
               "text_align": "vertical-center horizontal-left",
               "image": "shopify:\/\/shop_images\/legs-running-on-track.jpg",
               "focal_point": "center center"
@@ -668,7 +605,7 @@
               "link_2": "shopify:\/\/collections\/all",
               "link_text_2": "Shop All",
               "color_accent": "#000000",
-              "color_btn_text": "rgba(255,255,255,1)",
+              "color_btn_text": "#ffffff",
               "color_text_bg": "#e16616",
               "image_inner": "shopify:\/\/shop_images\/ImmuneMD_-_lemon.png",
               "image_inner_width": 300,
@@ -689,7 +626,7 @@
               "link_2": "shopify:\/\/collections\/all",
               "link_text_2": "Shop All",
               "color_accent": "#000000",
-              "color_btn_text": "rgba(255,255,255,1)",
+              "color_btn_text": "#ffffff",
               "color_text_bg": "#e16616",
               "image_inner": "shopify:\/\/shop_images\/Scimune_19d15eb9-48da-413e-a9da-d9c6a1eef517.png",
               "image_inner_width": 300,
@@ -708,17 +645,17 @@
           "section_height": "750px",
           "mobile_height": "auto",
           "parallax": false,
-          "style": "bars",
+          "style": "dots",
           "autoplay": false,
-          "autoplay_speed": 8
+          "autoplay_speed": 6
         }
       },
       "collection-header": {
         "type": "collection-header",
         "settings": {
           "enable": true,
-          "collection_image_enable": true,
-          "parallax": true
+          "collection_image_enable": false,
+          "parallax": false
         }
       },
       "collection-sidebar": {
@@ -769,15 +706,6 @@
       "1525886124958": {
         "type": "promo-grid",
         "blocks": {
-          "1603443590279": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/all-products-classic_c6d5e93c-7d10-4869-b708-ec6e4c4e9d97.png",
-              "link": "",
-              "image_bg_color": "#e16616",
-              "width": "100"
-            }
-          },
           "1525886854810": {
             "type": "sale_collection",
             "settings": {
@@ -787,35 +715,31 @@
               "bottom_text": "Probiotics & Prebiotics",
               "width": "50",
               "color_tint": "#000000",
-              "color_tint_opacity": 6,
+              "color_tint_opacity": 0,
               "boxed": false,
               "framed": true,
-              "color_frame": ""
+              "color_frame": "rgba(0,0,0,0)"
             }
           },
-          "1603442203503": {
-            "type": "product",
+          "101933bf-120c-4414-8c64-cecc72542f50": {
+            "type": "sale_collection",
             "settings": {
-              "product": "heart-health-ubiquinol",
-              "subheading": "Heart Health",
-              "heading": "Ubiquinol",
-              "textarea": "",
-              "link_label": "Shop Now",
-              "label": "New",
-              "enable_price": false,
+              "sale_collection": "health-support",
+              "top_text": "Up to",
+              "middle_text": "10% off",
+              "bottom_text": "Heart Health Support",
               "width": "50",
-              "text_size": 140,
-              "color_tint": "#e16616",
+              "color_tint": "#000000",
               "color_tint_opacity": 0,
+              "boxed": false,
               "framed": true,
-              "color_frame": ""
+              "color_frame": "rgba(0,0,0,0)"
             }
           }
         },
         "block_order": [
           "1525886854810",
-          "1603442203503",
-          "1603443590279"
+          "101933bf-120c-4414-8c64-cecc72542f50"
         ],
         "settings": {
           "full_width": true,
@@ -826,49 +750,6 @@
       },
       "collection-promotions": {
         "type": "collection-promotions",
-        "blocks": {
-          "1526403837307": {
-            "type": "banner",
-            "settings": {
-              "promo_collection": "",
-              "heading": "Banner promotion",
-              "text": "Add the details of your promotion in smaller text",
-              "link": "shopify:\/\/collections\/all",
-              "label": "Shop now",
-              "image": "",
-              "color_tint": "#e95454",
-              "color_tint_opacity": 10,
-              "framed": false
-            }
-          },
-          "1526496043079": {
-            "type": "advanced",
-            "settings": {
-              "promo_collection": "",
-              "subheading": "Limited time",
-              "heading": "Announce your promotion",
-              "textarea": "Include the smaller details of your promotion in text below the title.",
-              "cta_text1": "Shop This",
-              "cta_link1": "shopify:\/\/collections\/all",
-              "cta_text2": "Shop All",
-              "cta_link2": "",
-              "image": "",
-              "video_url": "",
-              "width": "100",
-              "height": 500,
-              "text_size": 120,
-              "text_align": "vertical-center horizontal-center",
-              "focal_point": "center",
-              "color_accent": "rgba(0,0,0,0)",
-              "boxed": false,
-              "framed": true
-            }
-          }
-        },
-        "block_order": [
-          "1526403837307",
-          "1526496043079"
-        ],
         "settings": {
           "gutter_size": 20
         }
@@ -876,26 +757,24 @@
       "footer-promotions": {
         "type": "footer-promotions",
         "blocks": {
-          "footer-promotions-0": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/carefully-placing-a-package-into-packing-peanuts.jpg",
-              "title": "100% MONEY BACK",
-              "text": "<p>GUARANTEE<\/p>",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
           "footer-promotions-1": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/holding-a-stack-of-money.jpg",
+              "image": "shopify:\/\/shop_images\/carefully-placing-a-package-into-packing-peanuts.jpg",
               "title": "FREE SHIPPING",
               "text": "<p>ON ORDERS OVER $100<\/p>",
-              "button_label": "",
-              "button_link": ""
+              "button_label": ""
+            }
+          },
+          "footer-promotions-0": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/holding-a-stack-of-money.jpg",
+              "title": "100% MONEY BACK",
+              "text": "<p>GUARANTEE<\/p>",
+              "button_label": ""
             }
           },
           "footer-promotions-2": {
@@ -905,18 +784,17 @@
               "image": "shopify:\/\/shop_images\/dentist-light.jpg",
               "title": "PHYSICIAN FORMULATED",
               "text": "<p>PRODUCTS<\/p>",
-              "button_label": "",
-              "button_link": ""
+              "button_label": ""
             }
           }
         },
         "block_order": [
-          "footer-promotions-0",
           "footer-promotions-1",
+          "footer-promotions-0",
           "footer-promotions-2"
         ],
         "settings": {
-          "hide_homepage": false,
+          "hide_homepage": true,
           "image_size": "wide"
         }
       },
@@ -925,7 +803,7 @@
         "settings": {
           "show_product_recommendations": true,
           "product_recommendations_heading": "You may also like",
-          "related_count": 5
+          "related_count": 3
         }
       },
       "recently-viewed": {
@@ -970,43 +848,115 @@
           "1603430246889-0": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/about-us-top-01_134x134_crop_center_2x_69c967f4-1670-4bf3-8278-01102618ffde.png",
-              "link": ""
-            }
-          },
-          "1603430246889-1": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/about-us-top-02_134x134_crop_center_2x_5125d04d-ced2-4e3c-bab7-7c2a7aa7fde3.png",
-              "link": ""
-            }
-          },
-          "1603430246889-2": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/about-us-top-03_134x134_crop_center_2x_b68a88cc-1dcc-4cd0-bbd6-fb482b861c24.png",
-              "link": ""
-            }
-          },
-          "1603430246889-3": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/about-us-top-04_134x134_crop_center_2x_c14822c4-b868-46a3-871e-d98b4afec6a3.png",
-              "link": ""
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-01_at_9.28.36_PM.png"
             }
           }
         },
         "block_order": [
-          "1603430246889-0",
-          "1603430246889-1",
-          "1603430246889-2",
-          "1603430246889-3"
+          "1603430246889-0"
         ],
         "settings": {
           "title": "",
           "logo_opacity": 100,
-          "logo_width": 160,
+          "logo_width": 600,
           "divider": false
+        }
+      },
+      "1604081064d0d28640": {
+        "type": "promo-grid",
+        "blocks": {
+          "31bb9415-8bc9-483a-97ce-5ad7e9fb367a": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image2_2.jpeg",
+              "link": "shopify:\/\/products\/probiotics-prebiotics-asprega-30-count",
+              "image_bg_color": "#ffffff",
+              "width": "100"
+            }
+          },
+          "d4eeaf5c-9082-4b20-ae41-1a37773f0a8f": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "WHY SCIMERA?",
+              "heading": "The scimera differnce!",
+              "textarea": "ScimeraMD® develops cutting-edge bioceuticals to ensure maximal customer benefit, uphold the highest benchmark of quality, and to continually set the standard within the Bioceutical industry.",
+              "cta_text1": "Learn More",
+              "cta_link1": "shopify:\/\/pages\/about-us",
+              "cta_text2": "",
+              "image": "shopify:\/\/shop_images\/clean-bg.jpg",
+              "video_url": "",
+              "width": "100",
+              "height": 800,
+              "text_size": 120,
+              "text_align": "vertical-bottom horizontal-center",
+              "focal_point": "bottom",
+              "color_accent": "#000000",
+              "boxed": true,
+              "framed": true,
+              "color_frame": "#e16616"
+            }
+          }
+        },
+        "block_order": [
+          "31bb9415-8bc9-483a-97ce-5ad7e9fb367a",
+          "d4eeaf5c-9082-4b20-ae41-1a37773f0a8f"
+        ],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 5,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "1604082987851d4b0a": {
+        "type": "testimonials",
+        "blocks": {
+          "1604082987851d4b0a-1": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>I&#x27;ve been using Scimune for about a year and it&#x27;s the only immune support supplement I trust to keep me at my best.<\/p>",
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-01_at_8.58.46_PM.png",
+              "author": "Jamie S."
+            }
+          },
+          "1604082987851d4b0a-2": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>I have just started taking Scimune since I am a nurse  who sees many patients per day. It&#x27;s well worth the price and it&#x27;s kept my immune system in tact. <\/p>",
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-01_at_8.04.42_PM.png",
+              "author": "Alana W."
+            }
+          },
+          "1604082987851d4b0a-0": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>E2 energey is by far the best energy supplement me or my wife have taken. We have both extremely hectic schedules and are also very active and workout daily. This product takes the effort out and gives us both this incredible boost of energy.<\/p>",
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-01_at_8.02.48_PM.png",
+              "author": "Nate R."
+            }
+          }
+        },
+        "block_order": [
+          "1604082987851d4b0a-1",
+          "1604082987851d4b0a-2",
+          "1604082987851d4b0a-0"
+        ],
+        "settings": {
+          "title": "Testimonials",
+          "align_text": "center",
+          "round_images": false,
+          "divider": false
+        }
+      },
+      "1604083516decc5858": {
+        "type": "featured-content",
+        "settings": {
+          "title": "Follow Us on Instagram",
+          "text": "",
+          "align_text": "center",
+          "narrow_column": false,
+          "enlarge_text": true,
+          "divider": true
         }
       }
     },
@@ -1014,10 +964,13 @@
       "1524769873765",
       "1603430246889",
       "1499789718857",
+      "1498163293234",
+      "1604081064d0d28640",
+      "1604082987851d4b0a",
       "1525886124958",
       "1499790633921",
       "1525115199973",
-      "1498163293234"
+      "1604083516decc5858"
     ]
   },
   "presets": {
