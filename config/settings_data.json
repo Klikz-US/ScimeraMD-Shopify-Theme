@@ -28,14 +28,14 @@
     "color_image_overlay": "#343e5c",
     "color_image_overlay_opacity": 0,
     "color_image_overlay_text_shadow": 20,
-    "type_header_font_family": "rajdhani_n6",
-    "type_header_spacing": "0",
+    "type_header_font_family": "frutiger_serif_n7",
+    "type_header_spacing": "25",
     "type_header_base_size": 38,
     "type_header_line_height": 1,
     "type_header_capitalize": true,
     "type_headers_align_text": true,
-    "type_base_font_family": "futura_n4",
-    "type_base_spacing": "50",
+    "type_base_font_family": "frutiger_serif_n4",
+    "type_base_spacing": "25",
     "type_base_size": 16,
     "type_base_line_height": 1.6,
     "type_body_align_text": true,
@@ -43,9 +43,9 @@
     "type_navigation_size": 13,
     "type_navigation_capitalize": true,
     "type_product_style": "body",
-    "type_product_capitalize": true,
+    "type_product_capitalize": false,
     "type_collection_font": "heading",
-    "type_collection_size": 18,
+    "type_collection_size": 26,
     "button_style": "round-slight",
     "icon_weight": "3px",
     "icon_linecaps": "round",
@@ -235,7 +235,7 @@
         "type": "collection-template",
         "settings": {
           "description_position": "top",
-          "subcollection_style": "above",
+          "subcollection_style": "none",
           "subcollections_per_row": 5,
           "enable_collection_count": true,
           "per_row": 4,
@@ -326,7 +326,7 @@
             "settings": {
               "collection": "e2-energy-focus",
               "title": "",
-              "background-image": "shopify:\/\/shop_images\/Untitled_design_8.png",
+              "background-image": "shopify:\/\/shop_images\/energy_and_focus_pills.jpg",
               "focal_point": "center center"
             }
           }
@@ -580,14 +580,14 @@
               "title_size": 80,
               "subheading": "Probiotics & Prebiotics",
               "link": "shopify:\/\/products\/probiotics-prebiotics-asprega-30-count",
-              "link_text": "Shop Asprega 30",
+              "link_text": "Shop This",
               "link_2": "shopify:\/\/collections\/all",
               "link_text_2": "Shop All",
               "color_accent": "#000000",
               "color_btn_text": "#ffffff",
               "color_text_bg": "#e16616",
-              "image_inner": "shopify:\/\/shop_images\/Ubiquinol_4a7d05e4-1165-4ebb-887c-2bbfbb04ef0e.png",
-              "image_inner_width": 200,
+              "image_inner": "shopify:\/\/shop_images\/image_11_1.png",
+              "image_inner_width": 300,
               "text_align": "vertical-center horizontal-left",
               "image": "shopify:\/\/shop_images\/legs-running-on-track.jpg",
               "focal_point": "center center"
@@ -601,7 +601,7 @@
               "title_size": 80,
               "subheading": "ImmuneMD Powder",
               "link": "shopify:\/\/products\/immunemd-powder-orange",
-              "link_text": "Shop ImmuneMD Powder",
+              "link_text": "Shop This",
               "link_2": "shopify:\/\/collections\/all",
               "link_text_2": "Shop All",
               "color_accent": "#000000",
@@ -619,10 +619,10 @@
             "settings": {
               "top_subheading": "First Responders Trust Scimune",
               "title": "Scimune 30CT",
-              "title_size": 80,
+              "title_size": 75,
               "subheading": "Immune Support",
               "link": "shopify:\/\/products\/immune-support-scimune-bottle",
-              "link_text": "Shop Immune Support",
+              "link_text": "Shop This",
               "link_2": "shopify:\/\/collections\/all",
               "link_text_2": "Shop All",
               "color_accent": "#000000",
@@ -653,7 +653,7 @@
       "collection-header": {
         "type": "collection-header",
         "settings": {
-          "enable": true,
+          "enable": false,
           "collection_image_enable": false,
           "parallax": false
         }
@@ -845,20 +845,53 @@
       "1603430246889": {
         "type": "logo-list",
         "blocks": {
-          "1603430246889-0": {
+          "2b0e4a95-c08a-43d9-8a4a-569cde1fb12d": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-01_at_9.28.36_PM.png"
+              "logo_width": 180,
+              "logo_padding": 40,
+              "image": "shopify:\/\/shop_images\/heartbeat-solid.png",
+              "logo-text": "Physician Formulated"
+            }
+          },
+          "2d0bf248-7c29-4dda-a4bb-fe13ad9bb67a": {
+            "type": "logo_image",
+            "settings": {
+              "logo_width": 210,
+              "logo_padding": 50,
+              "image": "shopify:\/\/shop_images\/satisfaction-guaranteed.png",
+              "logo-text": "Customer Satisfaction Guaranteed"
+            }
+          },
+          "1c6a6948-ee2d-44da-81e6-33ea63878403": {
+            "type": "logo_image",
+            "settings": {
+              "logo_width": 180,
+              "logo_padding": 35,
+              "image": "shopify:\/\/shop_images\/fox-news.png",
+              "logo-text": "As seen on Fox News",
+              "link": "https:\/\/www.foxnews.com\/category\/entertainment\/genres\/commercials"
+            }
+          },
+          "f768b182-a36c-4b9c-8d45-b7aa1dd2d8f6": {
+            "type": "logo_image",
+            "settings": {
+              "logo_width": 180,
+              "logo_padding": 30,
+              "image": "shopify:\/\/shop_images\/free-shipping.png",
+              "logo-text": "Free shipping on order $100+"
             }
           }
         },
         "block_order": [
-          "1603430246889-0"
+          "2b0e4a95-c08a-43d9-8a4a-569cde1fb12d",
+          "2d0bf248-7c29-4dda-a4bb-fe13ad9bb67a",
+          "1c6a6948-ee2d-44da-81e6-33ea63878403",
+          "f768b182-a36c-4b9c-8d45-b7aa1dd2d8f6"
         ],
         "settings": {
           "title": "",
           "logo_opacity": 100,
-          "logo_width": 600,
           "divider": false
         }
       },
@@ -877,8 +910,8 @@
           "d4eeaf5c-9082-4b20-ae41-1a37773f0a8f": {
             "type": "advanced",
             "settings": {
-              "subheading": "WHY SCIMERA?",
-              "heading": "The scimera differnce!",
+              "subheading": "WHY SCIMERAMD?",
+              "heading": "The scimeraMD differnce!",
               "textarea": "ScimeraMD® develops cutting-edge bioceuticals to ensure maximal customer benefit, uphold the highest benchmark of quality, and to continually set the standard within the Bioceutical industry.",
               "cta_text1": "Learn More",
               "cta_link1": "shopify:\/\/pages\/about-us",
@@ -916,7 +949,7 @@
             "settings": {
               "testimonial": "<p>I&#x27;ve been using Scimune for about a year and it&#x27;s the only immune support supplement I trust to keep me at my best.<\/p>",
               "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-01_at_8.58.46_PM.png",
-              "author": "Jamie S."
+              "author": "Eric S."
             }
           },
           "1604082987851d4b0a-2": {
@@ -930,7 +963,7 @@
           "1604082987851d4b0a-0": {
             "type": "testimonial",
             "settings": {
-              "testimonial": "<p>E2 energey is by far the best energy supplement me or my wife have taken. We have both extremely hectic schedules and are also very active and workout daily. This product takes the effort out and gives us both this incredible boost of energy.<\/p>",
+              "testimonial": "<p>E2 energy is by far the best energy supplement me or my wife have taken. We have both extremely hectic schedules and are also very active and workout daily. This product takes the effort out and gives us both this incredible boost of energy.<\/p>",
               "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-01_at_8.02.48_PM.png",
               "author": "Nate R."
             }

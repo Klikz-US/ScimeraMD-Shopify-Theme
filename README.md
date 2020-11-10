@@ -1,1 +1,0 @@
-# ScimeraMD-Shopify-Theme
