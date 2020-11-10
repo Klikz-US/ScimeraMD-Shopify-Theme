@@ -2,6 +2,31 @@
  * Custom Style
  */
 
+@font-face {
+  font-family: "Frutiger Light";
+  src: url("https://cdn.shopify.com/s/files/1/0066/7956/0310/files/Frutiger_Light.woff?v=1604992711");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Frutiger Regular";
+  src: url("https://cdn.shopify.com/s/files/1/0066/7956/0310/files/Frutiger_Regular.woff?v=1604992711");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Frutiger Bold";
+  src: url("https://cdn.shopify.com/s/files/1/0066/7956/0310/files/Frutiger_Bold.woff?v=1604992711");
+  font-weight: bold;
+}
+
+html:root {
+  --typeHeaderPrimary: "Frutiger Light";
+  --typeBasePrimary: "Frutiger Light";
+  --typeHeaderWeight: 100;
+  --typeBaseWeight: 100;
+}
+
 .hero__text-shadow {
   padding: 20px;
   border-radius: 5px;
@@ -11,12 +36,37 @@
   display: flex;
 }
 
-.hero_text-inner--img img {
-  margin-top: -80px;
+.hero_text-inner--img {
+  margin-left: 20px;
+}
+
+.image-fit.hero__inner-image {
+  width: unset;
+  height: unset;
+}
+
+.hero_text-inner--cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 840px;
+}
+
+.highlight {
+  color: #e16616;
+}
+.type-advanced .promo-grid__content {
+  max-width: 780px;
 }
 
 [data-type_product_capitalize="true"] .collection-item__title span {
   font-size: 20px !important;
+}
+
+.yotpo-main-widget {
+  max-width: 1440px;
+  margin: auto !important;
+  margin-bottom: 50px !important;
 }
 
 /**
@@ -85,4 +135,19 @@
   font-weight: bold;
   line-height: 1.2;
   margin-top: 10px;
+}
+
+.hero__top-subtitle {
+  font-size: 1.2em;
+}
+
+.grid-product__image-mask .image-wrap {
+  padding-bottom: 0 !important;
+  height: unset !important;
+  min-height: 320px;
+}
+
+.grid-product__image-mask .image-wrap img {
+  max-height: 320px;
+  width: unset;
 }

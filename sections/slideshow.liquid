@@ -177,7 +177,7 @@
                 <div class="hero__text-wrap">
                   <div class="page-width">
                     <div class="hero__text-content {{ block.settings.text_align }}">
-                      <div class="hero__text-shadow" style="background-color: {{ block.settings.color_text_bg }}">
+                      <div class="hero__text-shadow" style="background-image: linear-gradient(to right, {{ block.settings.color_text_bg_start }}cc , {{ block.settings.color_text_bg_end }}cc);">
                         <div class="hero__text-inner">
                           <div class="hero_text-inner--cta">
                             {%- unless block.settings.top_subheading == blank -%}
@@ -219,7 +219,7 @@
                             {%- endif -%}
                           </div>
 
-                          <div class="hero_text-inner--img">
+                          <div class="hero_text-inner--img" style="margin-top: -{{ block.settings.image_top_margin_overlap }}px; margin-right: -{{ block.settings.image_right_margin_overlap }}px;">
                             {% assign img_url = block.settings.image_inner_width | append: 'x' %}
                             <img class="image-fit hero__inner-image hero__inner-image--{{ block.id }}"
                               src="{{ block.settings.image_inner | img_url: img_url }}"
@@ -431,8 +431,14 @@
           },
           {
             "type": "color",
-            "id": "color_text_bg",
-            "label": "Text Box Background",
+            "id": "color_text_bg_start",
+            "label": "Text Box BG Gradient Start",
+            "default": "rgba(255,255,255,1)"
+          },
+          {
+            "type": "color",
+            "id": "color_text_bg_end",
+            "label": "Text Box BG Gradient Color",
             "default": "rgba(255,255,255,1)"
           },
           {
@@ -449,6 +455,26 @@
             "max": 500,
             "step": 10,
             "default": 300
+          },
+          {
+            "type": "range",
+            "id": "image_top_margin_overlap",
+            "label": "Image Overlap Top",
+            "unit": "px",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 0
+          },
+          {
+            "type": "range",
+            "id": "image_right_margin_overlap",
+            "label": "Image Overlap Right",
+            "unit": "px",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 0
           },
           {
             "type": "select",
