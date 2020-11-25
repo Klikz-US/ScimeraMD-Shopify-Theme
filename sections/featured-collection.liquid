@@ -60,6 +60,9 @@
                       <div class="grid-product__meta">
                         <div class="grid-product__title">{{ 'home_page.onboarding.product_title' | t }}</div>
                         <div class="grid-product__price">$29</div>
+                        {%- if settings.enable_product_reviews -%}
+                          <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+                        {%- endif -%}
                       </div>
                     </a>
                   </div>
