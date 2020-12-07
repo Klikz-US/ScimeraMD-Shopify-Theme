@@ -122,6 +122,7 @@
         assign button_text = 'products.product.sold_out' | t
       endunless
     -%}
+{% render 'bsub-widget', product: product %}
 
     <button
       {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}

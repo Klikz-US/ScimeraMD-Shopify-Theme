@@ -60,6 +60,11 @@
                           {{ item.variant.title }}
                         </p>
                       {%- endunless -%}
+{% if item.selling_plan_allocation != empty  %}
+  <span class="selling-plan-details">
+    {{item.selling_plan_allocation.selling_plan.name}}
+  </span>
+{% endif %}
 
                       {%- assign property_size = item.properties | size -%}
                       {% if property_size > 0 %}

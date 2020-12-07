@@ -14,14 +14,14 @@
     "color_large_image_bg": "#0f0f0f",
     "color_header": "#ffffff",
     "color_header_text": "#414b56",
-    "color_announcement": "#414b56",
+    "color_announcement": "#000000",
     "color_announcement_text": "#ffffff",
     "color_footer": "#414b56",
     "color_footer_text": "#fafafa",
     "color_drawer_background": "#ffffff",
     "color_drawer_text": "#343e5c",
     "color_drawer_border": "#e8e8e1",
-    "color_drawer_button": "#343e5c",
+    "color_drawer_button": "#020202",
     "color_drawer_button_text": "#ffffff",
     "color_modal_overlays": "#e6e6e6",
     "color_image_text": "#ffffff",
@@ -30,17 +30,17 @@
     "color_image_overlay_text_shadow": 20,
     "type_header_font_family": "frutiger_serif_n7",
     "type_header_spacing": "25",
-    "type_header_base_size": 38,
+    "type_header_base_size": 46,
     "type_header_line_height": 1,
-    "type_header_capitalize": true,
+    "type_header_capitalize": false,
     "type_headers_align_text": true,
     "type_base_font_family": "frutiger_serif_n4",
     "type_base_spacing": "25",
-    "type_base_size": 16,
+    "type_base_size": 18,
     "type_base_line_height": 1.6,
     "type_body_align_text": true,
     "type_navigation_style": "body",
-    "type_navigation_size": 13,
+    "type_navigation_size": 14,
     "type_navigation_capitalize": true,
     "type_product_style": "body",
     "type_product_capitalize": false,
@@ -78,7 +78,7 @@
     "product_contact": false,
     "product_contact_title": "Ask a question",
     "product_contact_show_phone": false,
-    "enable_product_reviews": false,
+    "enable_product_reviews": true,
     "reviews_layout": "expandable",
     "collection_grid_style": "below",
     "collection_grid_shape": "square",
@@ -138,8 +138,8 @@
             "settings": {
               "logo": "shopify:\/\/shop_images\/logo.png",
               "logo-inverted": "shopify:\/\/shop_images\/logo_white.png",
-              "desktop_logo_width": 250,
-              "mobile_logo_width": 150
+              "desktop_logo_width": 320,
+              "mobile_logo_width": 160
             }
           },
           "1524770292306": {
@@ -170,7 +170,7 @@
           "sticky_index": false,
           "sticky_collection": false,
           "announcement_compact": true,
-          "announcement_above_header": false,
+          "announcement_above_header": true,
           "toolbar_menu": "",
           "toolbar_social": true,
           "show_locale_selector": false,
@@ -275,7 +275,7 @@
           "align_text": "center",
           "narrow_column": false,
           "enlarge_text": false,
-          "divider": false
+          "divider": true
         }
       },
       "blog-template": {
@@ -297,9 +297,9 @@
           "1499789718857-2": {
             "type": "collection",
             "settings": {
-              "collection": "probiotics-prebiotics",
-              "title": "",
-              "background-image": "shopify:\/\/shop_images\/Home_Best_Sellers.jpg",
+              "collection": "best-sellers",
+              "title": "Best Sellers",
+              "background-image": "shopify:\/\/shop_images\/home-collection-8.jpg",
               "focal_point": "center center"
             }
           },
@@ -308,34 +308,14 @@
             "settings": {
               "collection": "immunemd",
               "title": "",
-              "background-image": "shopify:\/\/shop_images\/Home_Immune_Support.jpg",
-              "focal_point": "center center"
-            }
-          },
-          "1603417051711": {
-            "type": "collection",
-            "settings": {
-              "collection": "health-support",
-              "title": "",
-              "background-image": "shopify:\/\/shop_images\/Home_Heart_Health_Support.jpg",
-              "focal_point": "center center"
-            }
-          },
-          "c8c4d915-40b5-4141-be88-dc80fa3b7256": {
-            "type": "collection",
-            "settings": {
-              "collection": "e2-energy-focus",
-              "title": "",
-              "background-image": "shopify:\/\/shop_images\/energy_and_focus_pills.jpg",
+              "background-image": "shopify:\/\/shop_images\/home-collection-7.jpg",
               "focal_point": "center center"
             }
           }
         },
         "block_order": [
           "1499789718857-2",
-          "1499789718857-1",
-          "1603417051711",
-          "c8c4d915-40b5-4141-be88-dc80fa3b7256"
+          "1499789718857-1"
         ],
         "settings": {
           "full-width": true,
@@ -343,14 +323,14 @@
           "grid-padding": 0,
           "divider": false,
           "per_row": 2,
-          "enable_gutter": true
+          "enable_gutter": false
         }
       },
       "1499790633921": {
         "type": "background-image-text",
         "settings": {
           "subtitle": "For a Strong Immune System",
-          "title": "try Scimune Today!",
+          "title": "Try Scimune Today!",
           "text": "",
           "button_label": "View Product",
           "button_link": "shopify:\/\/products\/immune-support-scimune",
@@ -571,13 +551,36 @@
       },
       "1524769873765": {
         "type": "slideshow",
+        "disabled": true,
         "blocks": {
+          "9f4426eb-46e6-4c4f-ad8b-f3e73282b9fd": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "Where <span class=\"highlight\">Natural Supplements<\/span> and Science Come Together",
+              "title_size": 64,
+              "subheading": "",
+              "link_text": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "color_btn_text": "#ffffff",
+              "color_text_bg_start": "rgba(0,0,0,0)",
+              "color_text_bg_end": "rgba(0,0,0,0)",
+              "image_inner": "shopify:\/\/shop_images\/Asprega-pack-30.png",
+              "image_inner_width": 320,
+              "image_top_margin_overlap": 0,
+              "image_right_margin_overlap": 0,
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/background-4.jpg",
+              "focal_point": "center center"
+            }
+          },
           "1524769873765-0": {
             "type": "image",
             "settings": {
               "top_subheading": "Support Your Digestive Health",
-              "title": "Asprega 30",
-              "title_size": 80,
+              "title": "Asprega<sup>®<\/sup> 30",
+              "title_size": 64,
               "subheading": "Probiotics & Prebiotics",
               "link": "shopify:\/\/products\/probiotics-prebiotics-asprega-30-count",
               "link_text": "Shop This",
@@ -585,11 +588,14 @@
               "link_text_2": "Shop All",
               "color_accent": "#000000",
               "color_btn_text": "#ffffff",
-              "color_text_bg": "#e16616",
-              "image_inner": "shopify:\/\/shop_images\/image_11_1.png",
+              "color_text_bg_start": "#549b97",
+              "color_text_bg_end": "#256863",
+              "image_inner": "shopify:\/\/shop_images\/Asprega-pack.png",
               "image_inner_width": 300,
+              "image_top_margin_overlap": 80,
+              "image_right_margin_overlap": 0,
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/legs-running-on-track.jpg",
+              "image": "shopify:\/\/shop_images\/background-1.jpg",
               "focal_point": "center center"
             }
           },
@@ -597,20 +603,23 @@
             "type": "image",
             "settings": {
               "top_subheading": "The Next Layer of Immune Defense",
-              "title": "Lemon Ginger",
-              "title_size": 80,
-              "subheading": "ImmuneMD Powder",
-              "link": "shopify:\/\/products\/immunemd-powder-orange",
+              "title": "ImmuneMD<sup>®<\/sup> 10ct",
+              "title_size": 64,
+              "subheading": "Lemon\/Ginger",
+              "link": "shopify:\/\/products\/immunemd-powder-lemon-ginger",
               "link_text": "Shop This",
               "link_2": "shopify:\/\/collections\/all",
               "link_text_2": "Shop All",
               "color_accent": "#000000",
               "color_btn_text": "#ffffff",
-              "color_text_bg": "#e16616",
-              "image_inner": "shopify:\/\/shop_images\/ImmuneMD_-_lemon.png",
-              "image_inner_width": 300,
+              "color_text_bg_start": "#cdb32d",
+              "color_text_bg_end": "#cdb32d",
+              "image_inner": "shopify:\/\/shop_images\/ImmuneMD-lemon-pack_cdcad892-37aa-4759-b70a-aa9e5f8764c8.png",
+              "image_inner_width": 360,
+              "image_top_margin_overlap": 50,
+              "image_right_margin_overlap": 100,
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/orange-in-grass.jpg",
+              "image": "shopify:\/\/shop_images\/background-2_5e894ece-ca29-484f-a04d-1c973bdd771c.jpg",
               "focal_point": "top center"
             }
           },
@@ -618,28 +627,57 @@
             "type": "image",
             "settings": {
               "top_subheading": "First Responders Trust Scimune",
-              "title": "Scimune 30CT",
-              "title_size": 75,
+              "title": "Scimune<sup>®<\/sup> 14CT",
+              "title_size": 64,
               "subheading": "Immune Support",
-              "link": "shopify:\/\/products\/immune-support-scimune-bottle",
+              "link": "shopify:\/\/products\/immune-support-scimune",
               "link_text": "Shop This",
               "link_2": "shopify:\/\/collections\/all",
               "link_text_2": "Shop All",
               "color_accent": "#000000",
               "color_btn_text": "#ffffff",
-              "color_text_bg": "#e16616",
-              "image_inner": "shopify:\/\/shop_images\/Scimune_19d15eb9-48da-413e-a9da-d9c6a1eef517.png",
+              "color_text_bg_start": "#4685be",
+              "color_text_bg_end": "#215191",
+              "image_inner": "shopify:\/\/shop_images\/Scimune-right.png",
               "image_inner_width": 300,
+              "image_top_margin_overlap": 80,
+              "image_right_margin_overlap": 0,
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/AdobeStock_59684085-1170x659.jpeg",
+              "image": "shopify:\/\/shop_images\/background-3.jpg",
               "focal_point": "center center"
+            }
+          },
+          "f09ce464-c62d-4535-96ee-e36c6674eb7a": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "The Next Layer of Immune Defense",
+              "title": "ImmuneMD<sup>®<\/sup> 10ct",
+              "title_size": 64,
+              "subheading": "Orange",
+              "link": "shopify:\/\/products\/immunemd-powder-orange",
+              "link_text": "Shop This",
+              "link_2": "shopify:\/\/collections\/all",
+              "link_text_2": "Shop All",
+              "color_accent": "#000000",
+              "color_btn_text": "#ffffff",
+              "color_text_bg_start": "#e5853d",
+              "color_text_bg_end": "#dd5a35",
+              "image_inner": "shopify:\/\/shop_images\/ImmuneMD-orange-pack.png",
+              "image_inner_width": 360,
+              "image_top_margin_overlap": 40,
+              "image_right_margin_overlap": 100,
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/background-6.jpg",
+              "focal_point": "80% 0"
             }
           }
         },
         "block_order": [
+          "9f4426eb-46e6-4c4f-ad8b-f3e73282b9fd",
           "1524769873765-0",
           "1524769873765-1",
-          "1603267278311"
+          "1603267278311",
+          "f09ce464-c62d-4535-96ee-e36c6674eb7a"
         ],
         "settings": {
           "section_height": "750px",
@@ -647,7 +685,8 @@
           "parallax": false,
           "style": "dots",
           "autoplay": false,
-          "autoplay_speed": 6
+          "autoplay_speed": 6,
+          "video_url": "<p>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:\/\/www.youtube.com\/embed\/HCtYd50h3dE?controls=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;\/iframe&gt;<\/p>"
         }
       },
       "collection-header": {
@@ -686,21 +725,6 @@
           "filter_style": "sidebar",
           "tags_combine": true,
           "enable_sort": true
-        }
-      },
-      "1525115199973": {
-        "type": "blog-posts",
-        "settings": {
-          "title": "The Scimera MD Difference",
-          "blog": "scimeramd",
-          "post_limit": 3,
-          "blog_show_tags": false,
-          "blog_show_date": true,
-          "blog_show_comments": false,
-          "blog_show_author": false,
-          "view_all": true,
-          "blog_image_size": "wide",
-          "divider": false
         }
       },
       "1525886124958": {
@@ -761,7 +785,7 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/carefully-placing-a-package-into-packing-peanuts.jpg",
+              "image": "shopify:\/\/shop_images\/Phisician_Formulated_Proct_Line_3x_d07d3be6-d45e-4581-a80d-038a48321f0d.jpg",
               "title": "FREE SHIPPING",
               "text": "<p>ON ORDERS OVER $100<\/p>",
               "button_label": ""
@@ -771,7 +795,7 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/holding-a-stack-of-money.jpg",
+              "image": "shopify:\/\/shop_images\/MBG_3x_d794f8b1-8bc7-45ce-b858-d4809e4ccb57.jpg",
               "title": "100% MONEY BACK",
               "text": "<p>GUARANTEE<\/p>",
               "button_label": ""
@@ -781,7 +805,7 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/dentist-light.jpg",
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-23_at_5.02.31_PM.png",
               "title": "PHYSICIAN FORMULATED",
               "text": "<p>PRODUCTS<\/p>",
               "button_label": ""
@@ -810,7 +834,7 @@
         "type": "recently-viewed",
         "settings": {
           "show_section": true,
-          "recent_count": 5
+          "recent_count": 4
         }
       },
       "list-collections-template": {
@@ -845,49 +869,18 @@
       "1603430246889": {
         "type": "logo-list",
         "blocks": {
-          "2b0e4a95-c08a-43d9-8a4a-569cde1fb12d": {
+          "36519408-e525-4120-a026-77801d0c6a3c": {
             "type": "logo_image",
             "settings": {
-              "logo_width": 180,
-              "logo_padding": 40,
-              "image": "shopify:\/\/shop_images\/heartbeat-solid.png",
-              "logo-text": "Physician Formulated"
-            }
-          },
-          "2d0bf248-7c29-4dda-a4bb-fe13ad9bb67a": {
-            "type": "logo_image",
-            "settings": {
-              "logo_width": 210,
-              "logo_padding": 50,
-              "image": "shopify:\/\/shop_images\/satisfaction-guaranteed.png",
-              "logo-text": "Customer Satisfaction Guaranteed"
-            }
-          },
-          "1c6a6948-ee2d-44da-81e6-33ea63878403": {
-            "type": "logo_image",
-            "settings": {
-              "logo_width": 180,
-              "logo_padding": 35,
-              "image": "shopify:\/\/shop_images\/fox-news.png",
-              "logo-text": "As seen on Fox News",
-              "link": "https:\/\/www.foxnews.com\/category\/entertainment\/genres\/commercials"
-            }
-          },
-          "f768b182-a36c-4b9c-8d45-b7aa1dd2d8f6": {
-            "type": "logo_image",
-            "settings": {
-              "logo_width": 180,
-              "logo_padding": 30,
-              "image": "shopify:\/\/shop_images\/free-shipping.png",
-              "logo-text": "Free shipping on order $100+"
+              "logo_width": 450,
+              "logo_padding": 0,
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-23_at_7.14.05_PM.png",
+              "logo-text": ""
             }
           }
         },
         "block_order": [
-          "2b0e4a95-c08a-43d9-8a4a-569cde1fb12d",
-          "2d0bf248-7c29-4dda-a4bb-fe13ad9bb67a",
-          "1c6a6948-ee2d-44da-81e6-33ea63878403",
-          "f768b182-a36c-4b9c-8d45-b7aa1dd2d8f6"
+          "36519408-e525-4120-a026-77801d0c6a3c"
         ],
         "settings": {
           "title": "",
@@ -911,7 +904,7 @@
             "type": "advanced",
             "settings": {
               "subheading": "WHY SCIMERAMD?",
-              "heading": "The scimeraMD differnce!",
+              "heading": "The ScimeraMD<sup>®<\/sup> difference!",
               "textarea": "ScimeraMD® develops cutting-edge bioceuticals to ensure maximal customer benefit, uphold the highest benchmark of quality, and to continually set the standard within the Bioceutical industry.",
               "cta_text1": "Learn More",
               "cta_link1": "shopify:\/\/pages\/about-us",
@@ -964,7 +957,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>E2 energy is by far the best energy supplement me or my wife have taken. We have both extremely hectic schedules and are also very active and workout daily. This product takes the effort out and gives us both this incredible boost of energy.<\/p>",
-              "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-01_at_8.02.48_PM.png",
+              "image": "shopify:\/\/shop_images\/E2_Focus_Testimonial_a9c81595-3aff-49e5-9f1b-dae30fa95f3a.jpg",
               "author": "Nate R."
             }
           }
@@ -991,18 +984,87 @@
           "enlarge_text": true,
           "divider": true
         }
+      },
+      "1605102594743c4cf1": {
+        "type": "featured-collections",
+        "blocks": {
+          "1605102594743c4cf1-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "health-support",
+              "title": "",
+              "background-image": "shopify:\/\/shop_images\/home-collection-5.jpg",
+              "focal_point": "center center"
+            }
+          },
+          "1605102594743c4cf1-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "e2-energy-focus",
+              "title": "",
+              "background-image": "shopify:\/\/shop_images\/home-collection-6.jpg",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "1605102594743c4cf1-0",
+          "1605102594743c4cf1-1"
+        ],
+        "settings": {
+          "full-width": true,
+          "title": "",
+          "grid-padding": 0,
+          "divider": false,
+          "per_row": 2,
+          "enable_gutter": true
+        }
+      },
+      "1605635529eeb11bdf": {
+        "type": "hero-video",
+        "settings": {
+          "title": "",
+          "title_size": 80,
+          "subheading": "",
+          "link_text": "",
+          "link": "shopify:\/\/collections\/all",
+          "color_accent": "rgba(0,0,0,0)",
+          "text_align": "vertical-center horizontal-center",
+          "video_url": "https:\/\/youtu.be\/HCtYd50h3dE",
+          "section_height": "750px",
+          "mobile_height": "auto"
+        }
+      },
+      "hero-video": {
+        "type": "hero-video",
+        "settings": {
+          "title": "",
+          "title_size": 80,
+          "subheading": "",
+          "link_text": "",
+          "color_accent": "rgba(0,0,0,0)",
+          "text_align": "vertical-center horizontal-center",
+          "video_url": "https:\/\/youtu.be\/thS4STzts1g",
+          "section_height": "100vh",
+          "mobile_height": "auto"
+        }
+      },
+      "page-commercial-hero-video": {
+        "type": "page-commercial-hero-video",
+        "settings": {}
       }
     },
     "content_for_index": [
+      "1605635529eeb11bdf",
       "1524769873765",
       "1603430246889",
       "1499789718857",
+      "1605102594743c4cf1",
       "1498163293234",
       "1604081064d0d28640",
       "1604082987851d4b0a",
       "1525886124958",
       "1499790633921",
-      "1525115199973",
       "1604083516decc5858"
     ]
   },
