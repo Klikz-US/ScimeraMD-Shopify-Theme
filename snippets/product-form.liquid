@@ -127,7 +127,7 @@
       {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
       name="add"
       id="AddToCart-{{ section_id }}"
-      class="btn btn--full add-to-cart{% if enable_dynamic_buttons %} btn--secondary{% endif %}"
+      class="btn btn--full add-to-cart{% if enable_dynamic_buttons %} {% endif %}"
       {% unless current_variant.available %} disabled="disabled"{% endunless %}>
       <span id="AddToCartText-{{ section_id }}" data-default-text="{{ default_text }}">
         {{ button_text }}
