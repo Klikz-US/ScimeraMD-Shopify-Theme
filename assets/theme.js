@@ -598,8 +598,7 @@ lazySizesConfig.expFactor = 4;
         if (this.enableHistoryState) {
           this._updateHistoryState(variant);
         }
-        (typeof window.BOLD !== 'undefined' && typeof window.BOLD.BsubWidget !== 'undefined' && (BOLD.BsubWidget.renderAllPrices()));
-},
+      },
 
       _updateImages: function (variant) {
         var variantImage = variant.featured_image || {};
@@ -1459,8 +1458,6 @@ lazySizesConfig.expFactor = 4;
             animation_row += 2;
 
             item = {
-sellingPlan: product.selling_plan_allocation ? product.selling_plan_allocation.selling_plan.name : '',
-
               key: product.key,
               url: product.url,
               img: prodImg,
@@ -4017,8 +4014,7 @@ sellingPlan: product.selling_plan_allocation ? product.selling_plan_allocation.s
             JSON.stringify(theme.recentlyViewed.recent)
           );
         }
-      (typeof window.BOLD!== 'undefined' && typeof window.BOLD.BsubWidget !== 'undefined' && (BOLD.BsubWidget.init()));
-},
+      },
 
       stringOverrides: function () {
         theme.productStrings = theme.productStrings || {};
@@ -5119,8 +5115,7 @@ sellingPlan: product.selling_plan_allocation ? product.selling_plan_allocation.s
               if (Shopify && Shopify.PaymentButton) {
                 Shopify.PaymentButton.init();
               }
-            (typeof window.BOLD!== 'undefined' && typeof window.BOLD.BsubWidget !== 'undefined' && (BOLD.BsubWidget.init()));
-}.bind(this)
+            }.bind(this)
           );
 
           this.productSetup();

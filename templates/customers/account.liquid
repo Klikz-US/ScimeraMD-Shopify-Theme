@@ -11,8 +11,7 @@
     <div class="grid__item medium-up--two-thirds">
       <h2>{{ 'customer.orders.title' | t }}</h2>
 
-      
-<p><a href="/pages/my-subscriptions" class="text-link">Manage Subscription</a></p>{%- if customer.orders.size != 0 -%}
+      {%- if customer.orders.size != 0 -%}
 
         <table class="table--responsive table--small-text">
           <thead>
@@ -63,3 +62,6 @@
   {%- endif -%}
 </div>
 {%- endpaginate -%}
+
+
+{% render 'paywhirl-customer-portal-frame' %}

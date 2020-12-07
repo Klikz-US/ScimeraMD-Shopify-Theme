@@ -76,9 +76,7 @@
             content_for_header
         }}
 
-        {{ 'bsub.js' | asset_url | script_tag }}
-{{ 'bsub.scss.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'vendor-scripts-v7.js' | asset_url | split: '?' | first }}" defer="defer"></script>
+        <script src="{{ 'vendor-scripts-v7.js' | asset_url | split: '?' | first }}" defer="defer"></script>
 
         {%- if shop.enabled_currencies.size > 1 -%}
             <link rel="preload" as="style" href="{{ 'currency-flags.css' | asset_url }}" onload="this.onload=null;this.rel='stylesheet'"/>
@@ -149,5 +147,6 @@
         {%- endif -%}
 
         <script async src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=V3Tv6G" type="text/javascript"></script>
+    {% render 'paywhirl-main' %}
     </body>
 </html>

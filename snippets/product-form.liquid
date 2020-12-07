@@ -122,7 +122,8 @@
         assign button_text = 'products.product.sold_out' | t
       endunless
     -%}
-{% render 'bsub-widget', product: product %}
+
+    {% render 'paywhirl-plan-selector', product: product %}
 
     <button
       {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
