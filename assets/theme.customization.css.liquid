@@ -141,21 +141,10 @@ html:root {
   font-size: 1.2em;
 }
 
-.grid-product__image-mask .image-wrap {
-  padding-bottom: 0 !important;
-  height: unset !important;
-  min-height: 320px;
-}
-
-.grid-product__image-mask .image-wrap img {
-  max-height: 320px;
-  width: unset;
-}
-
 .product__thumbs.product__thumbs--beside .slick-list {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .template-index .collection-image--square {
@@ -191,7 +180,7 @@ html:root {
   .product__main-photos .product-image-main {
     height: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-direction: column;
   }
 }
@@ -218,4 +207,11 @@ html:root {
 
 .template-index .main-content .index-section:nth-child(2) {
   margin: 30px 0 10px;
+}
+
+/**
+ * Subscription Form
+ */
+#sri-subscribe-form div:last-child div:first-child {
+  margin-bottom: .5em;
 }
