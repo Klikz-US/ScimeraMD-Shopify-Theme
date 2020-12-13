@@ -123,8 +123,6 @@
       endunless
     -%}
 
-    {% render 'paywhirl-plan-selector', product: product %}
-
     <button
       {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
       name="add"
