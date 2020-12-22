@@ -151,10 +151,6 @@ html:root {
   padding-bottom: 80%;
 }
 
-/* .product__main-photos {
-  border: 1px solid #000;
-} */
-
 @media (min-width: 769px) {
   .product__main-photos img {
     display: block !important;
@@ -214,4 +210,45 @@ html:root {
  */
 #sri-subscribe-form div:last-child div:first-child {
   margin-bottom: .5em;
+}
+
+/**
+ * Header Style
+ */
+@media only screen and (min-width: 769px) {
+  .header-layout--center-split > .header-item--left,
+  .header-layout--center-split > .header-item--icons {
+    align-items: flex-end;
+  }
+
+  .header-layout--center-split .header-item--logo-split > .header-item--split-left, 
+  .header-layout--center-split .header-item--logo-split > .header-item--split-right {
+    height: 100%;
+    align-items: flex-end;
+  }
+
+  .js-search-header-close.site-header__search-btn {
+    padding-top: 36px;
+  }
+
+  .site-header__search-form {
+    padding: 36px 0 0;
+  }
+}
+
+/**
+ * PDP -- Related Products
+ */
+.product-recommendations .grid-product__image-mask {
+  height: 360px;
+}
+
+.product-recommendations .grid-product__image-mask .image-wrap {
+  height: 100% !important;
+  padding: 0 !important;
+}
+
+.product-recommendations .grid-product__image-mask .image-wrap img {
+  height: 100%;
+  width: auto;
 }

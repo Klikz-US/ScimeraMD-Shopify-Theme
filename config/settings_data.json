@@ -700,25 +700,26 @@
       "collection-sidebar": {
         "type": "collection-sidebar",
         "blocks": {
-          "1524772785241": {
-            "type": "subcollections",
+          "688ffb2e-6cf8-4f17-a80e-dbff85eb20a1": {
+            "type": "menu",
             "settings": {
-              "enable_subsubcollections": true,
-              "enable_count": false,
+              "title": "By Need",
+              "menu": "sidebar-by-need",
               "collapsed": false
             }
           },
-          "1524772580942": {
-            "type": "tags_all",
+          "d18fd2fc-f9eb-4959-8ee9-dd57459847f2": {
+            "type": "menu",
             "settings": {
-              "title": "Tags",
+              "title": "By Product",
+              "menu": "sidebar-by-product",
               "collapsed": false
             }
           }
         },
         "block_order": [
-          "1524772785241",
-          "1524772580942"
+          "688ffb2e-6cf8-4f17-a80e-dbff85eb20a1",
+          "d18fd2fc-f9eb-4959-8ee9-dd57459847f2"
         ],
         "settings": {
           "enable_sidebar": true,
@@ -957,7 +958,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>E2 energy is by far the best energy supplement me or my wife have taken. We have both extremely hectic schedules and are also very active and workout daily. This product takes the effort out and gives us both this incredible boost of energy.<\/p>",
-              "image": "shopify:\/\/shop_images\/E2_Focus_Testimonial.jpg",
+              "image": "shopify:\/\/shop_images\/E2_Focus_Testimonial_a9c81595-3aff-49e5-9f1b-dae30fa95f3a.jpg",
               "author": "Nate R."
             }
           }
